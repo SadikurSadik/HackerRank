@@ -1,9 +1,8 @@
 /*******************************************************************************************
- Problem Link: https://www.hackerrank.com/challenges/revising-the-select-query/problem
+ Problem Link: https://www.hackerrank.com/challenges/weather-observation-station-8/problem
  Platform: MySql
 ********************************************************************************************/
 
-SELECT *
-FROM `CITY`
-WHERE `CITY`.POPULATION > 100000
-  AND `CITY`.COUNTRYC
+SELECT DISTINCT(`STATION`.CITY)
+FROM `STATION`
+WHERE `STATION`.CITY REGEXP '^[aeiou].*[aeiou]$';

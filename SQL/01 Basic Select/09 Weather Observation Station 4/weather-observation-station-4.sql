@@ -1,9 +1,6 @@
 /*******************************************************************************************
- Problem Link: https://www.hackerrank.com/challenges/revising-the-select-query/problem
+ Problem Link: https://www.hackerrank.com/challenges/weather-observation-station-4/problem
  Platform: MySql
 ********************************************************************************************/
 
-SELECT *
-FROM `CITY`
-WHERE `CITY`.POPULATION > 100000
-  AND `CITY`.COUNTRYC
+SELECT COUNT(`STATION`.CITY) - COUNT(DISTINCT(`STATION`.CITY)) FROM `STATION`;

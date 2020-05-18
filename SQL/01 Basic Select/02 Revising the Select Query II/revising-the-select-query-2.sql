@@ -1,9 +1,9 @@
 /*******************************************************************************************
- Problem Link: https://www.hackerrank.com/challenges/revising-the-select-query/problem
+ Problem Link: https://www.hackerrank.com/challenges/revising-the-select-query-2/problem
  Platform: MySql
 ********************************************************************************************/
 
-SELECT *
+SELECT `CITY`.NAME
 FROM `CITY`
-WHERE `CITY`.POPULATION > 100000
-  AND `CITY`.COUNTRYC
+WHERE `CITY`.COUNTRYCODE = 'USA'
+  AND `CITY`.POPULATION > 120000;

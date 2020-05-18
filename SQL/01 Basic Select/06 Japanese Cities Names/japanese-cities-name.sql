@@ -1,9 +1,8 @@
 /*******************************************************************************************
- Problem Link: https://www.hackerrank.com/challenges/revising-the-select-query/problem
+ Problem Link: https://www.hackerrank.com/challenges/japanese-cities-name/problem
  Platform: MySql
 ********************************************************************************************/
 
-SELECT *
+SELECT `CITY`.NAME
 FROM `CITY`
-WHERE `CITY`.POPULATION > 100000
-  AND `CITY`.COUNTRYC
+WHERE `CITY`.COUNTRYCODE = 'JPN';

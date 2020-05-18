@@ -1,9 +1,8 @@
 /*******************************************************************************************
- Problem Link: https://www.hackerrank.com/challenges/revising-the-select-query/problem
+ Problem Link: https://www.hackerrank.com/challenges/name-of-employees/problem
  Platform: MySql
 ********************************************************************************************/
 
-SELECT *
-FROM `CITY`
-WHERE `CITY`.POPULATION > 100000
-  AND `CITY`.COUNTRYC
+SELECT `Employee`.name
+FROM `Employee`
+ORDER BY `Employee`.name;

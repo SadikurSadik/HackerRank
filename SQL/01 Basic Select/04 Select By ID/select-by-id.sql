@@ -1,9 +1,8 @@
 /*******************************************************************************************
- Problem Link: https://www.hackerrank.com/challenges/revising-the-select-query/problem
+ Problem Link: https://www.hackerrank.com/challenges/select-by-id/problem
  Platform: MySql
 ********************************************************************************************/
 
 SELECT *
 FROM `CITY`
-WHERE `CITY`.POPULATION > 100000
-  AND `CITY`.COUNTRYC
+WHERE `CITY`.ID = 1661;
